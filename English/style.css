@@ -1,0 +1,113 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background: rgb(223, 177, 177);
+}
+.welcome{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: navy;
+    text-align: center;  
+}
+.follow {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: firebrick;
+    text-align: center; 
+}
+.pict {
+    overflow: hidden;
+}
+ .pictures  { 
+   float: left; 
+   width: 48%;
+}
+.pictures1 {
+  float:right;
+  width: 48%;
+}
+
+/* .motivateIm, .bookIm, .childIm, .websiteIm, .moviesIm, .cartoonsIm {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+} */
+a:link{
+    color: darkred;
+    font-size: 35px; 
+    }
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: forestgreen;
+}
+a:active{
+    color: orangered;
+}
+.motivate{
+    background-image: url(./pictures/motivation.png);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.books{
+    background-image: url(./pictures/textbooks.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.child{
+    background-image: url(./pictures/children.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.websites{
+    background-image: url(./pictures/websites.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.movies{
+    background-image: url(./pictures/movies.png);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.cartoons{
+    background-image: url(./pictures/cartoons.png);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
